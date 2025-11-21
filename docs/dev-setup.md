@@ -31,6 +31,9 @@ node ./scripts/import-sample.js
 Testing
 
 ```powershell
+# Install dependencies
+npm ci
+
 # Run unit tests
 npm test
 
