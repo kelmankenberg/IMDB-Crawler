@@ -1,0 +1,35 @@
+{
+  "name": "imdb-crawler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electron + React app to query IMDb datasets locally (DuckDB)",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron .",
+    "lint": "eslint --ext .ts,.tsx src || true",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "^26.0.0",
+    "electron-builder": "^24.0.0",
+    "electron-vite": "^3.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "prettier": "^2.0.0"
+  },
+  "dependencies": {
+    "duckdb": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "fast-csv": "^4.3.6",
+    "gunzip-maybe": "^1.4.3"
+  }
+}

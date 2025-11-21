@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.idea/
+.vscode/
+*.log
+**/node_modules
+*.tgz
+*.local
+*.db
+*.sqlite
+*.duckdb
